@@ -1,5 +1,16 @@
-@media only screen and(max-width:768px){
-    header.navbar-brand{
+
+@media only screen and (max-width:990px){
+    
+    header .row .col-md-5{
+        padding: 15vmin 1vmin;
+    }
+    header .nav-item:last-child {
+        padding-right: 0;
+      }
+}
+
+@media only screen and (max-width: 990px){
+    header .navbar-brand{
         padding-left: 1rem;
     }
     .section-1 .row .col-md-6 .panel{
@@ -37,17 +48,30 @@
         font-size: 8vmin;
     }
 
-    .section-4 .carousel-item{
-        padding-left: 0.6rem;
-    }
-
     .section-4 .team{
         display: flex;
         flex-direction: column;
         align-content: center;
+        justify-content: center;
     }
 
     .section-4 .carousel-inner{
-        width: 24rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .section-4 .card{
+        width: 18rem;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left: -14vmin;
     }
 }

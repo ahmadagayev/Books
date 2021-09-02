@@ -66,7 +66,12 @@ header .nav-item:last-child {
 header .nav-item {
   padding: 0.9rem;
 }
-
+header .navbar-collapse {
+    flex-grow: 0;
+}
+header .navbar-nav{
+    text-align: center;
+}
 header .navbar-brand {
   padding-left: 8rem;
 }
@@ -301,7 +306,7 @@ header .container .col-md-7 button {
 }
 
 .section-4 .card{
-    width: 22rem;
+    width: 20rem;
     margin-top: 10vmin;
 }
 
@@ -311,11 +316,6 @@ header .container .col-md-7 button {
 
 .section-4 .card .card-body > a{
     font-size: 1.5em;
-}
-
-
-.section-4 .carousel-item{
-     padding-left: 3rem;
 }
 
 .border-radius{
@@ -347,6 +347,10 @@ footer .input-group .input-group-text{
     background: var(--bggradient);
     border: none;
     display: block;
+}
+
+footer .column {
+    width: 10rem;
 }
 
 footer .column i{
